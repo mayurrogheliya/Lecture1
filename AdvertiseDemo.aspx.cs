@@ -18,5 +18,15 @@ namespace Lecture1
         {
 
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            if (FileUpload1.HasFile) { 
+                string filename = FileUpload1.FileName;
+                string path = Server.MapPath("~/UploadFiles/") + filename;
+                FileUpload1.SaveAs(path);
+                Label1.Text = "File upload successfully";
+            }
+        }
     }
 }
