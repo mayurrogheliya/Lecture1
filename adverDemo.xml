@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+	<Ad>
+		<ImageUrl>~/music-prod.jpg</ImageUrl>
+		<Keywords>Mayur Rogheliya</Keywords>
+		<NavigateUrl>https://mayurrogheliya.netlify.app</NavigateUrl>
+		<AlternateText>Portfolio</AlternateText>
+		<Impression>1</Impression>
+	</Ad>
+	<Ad>
+		<ImageUrl>~/Designer (2).jpeg</ImageUrl>
+		<Keywords>Javascript</Keywords>
+		<NavigateUrl>https://dreamrk.hashnode.dev/javascript</NavigateUrl>
+		<AlternateText>Javascript Blog</AlternateText>
+		<Impression>2</Impression>
+	</Ad>
+</Advertisements>
