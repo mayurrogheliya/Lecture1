@@ -22,7 +22,7 @@
             Confirm Password: <asp:TextBox ID="cfmpsw" runat="server"></asp:TextBox> <asp:CompareValidator ID="CompareValidator1" runat="server" ErrorMessage="password doesn't match" ControlToCompare="password" ControlToValidate="cfmpsw" ForeColor="Red"></asp:CompareValidator>
             <br />
             <br />
-            <asp:Button ID="register_btn" runat="server" Text="Register" />
+            <asp:Button ID="register_btn" runat="server" Text="Register" OnClick="register_btn_Click" />
         </div>
     </form>
 </body>

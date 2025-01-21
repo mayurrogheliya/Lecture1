@@ -69,6 +69,10 @@
   <ItemGroup>
     <Content Include="adverDemo.xml" />
     <Content Include="AdvertiseDemo.aspx" />
+    <Content Include="App_Data\Database1.mdf" />
+    <Content Include="App_Data\Database1_log.ldf">
+      <DependentUpon>Database1.mdf</DependentUpon>
+    </Content>
     <Content Include="Designer %282%29.jpeg" />
     <Content Include="music-prod.jpg" />
     <Content Include="RegistrationForm.aspx" />
