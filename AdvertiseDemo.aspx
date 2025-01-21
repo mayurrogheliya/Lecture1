@@ -21,6 +21,17 @@
         <br />
         <br />
         <asp:Label ID="Label1" runat="server"></asp:Label>
+        <br />
+        <br />
+        <asp:Calendar ID="Calendar1" runat="server" OnSelectionChanged="Calendar1_SelectionChanged"></asp:Calendar>
+        <br />
+        <asp:Label ID="Label2" runat="server"></asp:Label>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
     </form>
 </body>
 </html>

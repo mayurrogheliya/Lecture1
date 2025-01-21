@@ -28,5 +28,10 @@ namespace Lecture1
                 Label1.Text = "File upload successfully";
             }
         }
+
+        protected void Calendar1_SelectionChanged(object sender, EventArgs e)
+        {
+            Label2.Text = "Selected Date: " + Calendar1.SelectedDate.ToString("dd-MM-yyyy")+"\nSelected Day: "+Calendar1.SelectedDayStyle.ToString();
+        }
     }
 }
